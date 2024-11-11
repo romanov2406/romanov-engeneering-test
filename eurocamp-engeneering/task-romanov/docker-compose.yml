@@ -1,0 +1,9 @@
+#version: '3'
+services:
+  backend:
+    build: ./
+    restart: unless-stopped
+    container_name: server_romanov
+    environment:
+      API_CLIENT: "http://eurocamp-api:8080/api/1/"
+

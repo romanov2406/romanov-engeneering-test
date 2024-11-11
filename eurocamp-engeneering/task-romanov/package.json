@@ -1,0 +1,31 @@
+{
+  "name": "task-romanov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w && node dist/index.js",
+    "start:watch": "tsc -w & nodemon --watch dist/index.js dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.0",
+    "class-transformer": "^0.5.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios-retry": "^4.5.0",
+    "class-validator": "^0.14.1"
+  }
+}
