@@ -2,6 +2,10 @@
 logs
 *.log
 
+
+.idea/
+
+
  .env
 .env.*.local
 
