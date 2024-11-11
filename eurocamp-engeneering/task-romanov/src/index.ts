@@ -11,8 +11,8 @@ async function main(): Promise<void> {
   const bookingService = new BookingService(apiClient);
 
   const allUsers = await userService.findAll();
-  const allParcels= await parcService.findAll();
-  const allBookings= await bookingService.findAll();
+  // const allParcels= await parcService.findAll();
+  // const allBookings= await bookingService.findAll();
 
   console.log(allUsers);
 }
