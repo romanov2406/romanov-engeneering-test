@@ -14,5 +14,5 @@ Clone the repository:
      run the following command to seed the database: **docker exec -it engineering-test_eurocamp-api_1 npm run seed:run**
      If the container name is different, check the correct name by using docker ps.
 
-3. Check Test Code: Navigate to the **task-romanov** folder. The test task Docker container image name is **engineering-test-romanov-service-1.**
-4.All notes regarding the test task are in the engineering-test folder under NOTES.md.
+3. Check Test Code: Navigate to the **task-romanov** folder. The test task Docker container image name is **engineering-test-romanov-service-1.**.
+4. All notes regarding the test task are in the engineering-test folder under NOTES.md.
