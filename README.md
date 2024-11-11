@@ -16,5 +16,5 @@ Clone the repository:
    * If the container name is different, check the correct name by using docker ps.
    * Check that there is data in the database tables (see below for connection details). Also review the api documentation at http://localhost:3001/api
 
-3. Check Test Code: Navigate to the **task-romanov** folder. The test task Docker container image name is **engineering-test-romanov-service-1.**.
+3. Check Test Code: Navigate to the **task-romanov** folder. The test task and unit tests are included in the Docker container. The image name is:**engineering-test-romanov-service-1.**.
 4. All notes regarding the test task are in the engineering-test folder under NOTES.md.
