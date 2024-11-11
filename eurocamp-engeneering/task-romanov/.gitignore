@@ -5,6 +5,9 @@ logs
 
 .idea/
 
+src/**/*.js
+
+
 
  .env
 .env.*.local
